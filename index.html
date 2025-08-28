@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AnyWear - AI-Powered Accessory Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>AnyWear</h1>
+      <p>Your personal AI stylist for accessories</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Design your look with the power of AI</h2>
+      <p>Let our smart assistant help you find or create accessories that match your style and vibe. Whether it's bold, elegant, minimal or playful—AnyWear has got you covered.</p>
+      <button id="start-chat">Start Chatting</button>
+    </section>
+  </main>
+
+  <!-- Chat Widget -->
+  <div id="chat-widget" class="chat-hidden">
+    <div id="chat-header">💬 AnyWear Assistant</div>
+    <div id="chat-body"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
